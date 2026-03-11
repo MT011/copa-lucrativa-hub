@@ -41,14 +41,24 @@ const LessonScreen = ({
           <span className="text-5xl mb-4 block">📥</span>
           <h2 className="font-display text-2xl font-bold text-foreground mb-3">{lesson.title}</h2>
           <p className="font-body text-muted-foreground mb-6">
-            Clique no botão abaixo para baixar sua planilha de precificação.
+            Baixe as planilhas exclusivas para organizar suas finanças e precificar suas peças de crochê.
           </p>
-          <a
-            href="#"
-            className="inline-flex items-center gap-2 px-8 py-3 bg-secondary text-secondary-foreground font-body font-bold rounded-lg hover:brightness-110 transition-all"
-          >
-            Download da Planilha
-          </a>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="/Planilha_de_precificacao.xlsx"
+              download
+              className="inline-flex items-center gap-2 px-6 py-3 bg-secondary text-secondary-foreground font-body font-bold rounded-lg hover:brightness-110 transition-all"
+            >
+              📊 Planilha de Precificação
+            </a>
+            <a
+              href="/MEI_Resumo_de_faturamento.xlsx"
+              download
+              className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-body font-bold rounded-lg hover:brightness-110 transition-all"
+            >
+              💰 Resumo de Faturamento MEI
+            </a>
+          </div>
         </div>
       </div>
     );
