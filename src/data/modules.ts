@@ -142,7 +142,7 @@ export const MODULES: Module[] = [
     slug: "virais",
     icon: "🔥",
     title: "Módulo 5 — Peças Virais (+30 Aulas)",
-    shortTitle: "Peças Virais",
+    shortTitle: "Peças Virais Crochê ",
     lessons: [
       { id: "5.1", title: "Vestido de Crochê Esmeralda — Sandra Brum", videoId: "QZolpnZxUJw" },
       { id: "5.2", title: "Vestido de Crochê para o Réveillon — Sandra Brum", videoId: "GGt-IJyr-DE" },
