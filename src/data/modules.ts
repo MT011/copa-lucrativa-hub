@@ -101,6 +101,8 @@ export const MODULES: Module[] = [
       { id: "2.48", title: "Top Cropped do Brasil em Crochê — Para Iniciantes", videoId: "wjiVgFRCx_g" },
       { id: "2.49", title: "Cropped de Crochê para Copa 2026 — Passo a Passo", videoId: "EP0lXB0lrPw" },
       { id: "2.50", title: "Top-Cropped em Crochê Tamanho M e G", videoId: "TJaz4JiH7UE" },
+      { id: "2.51", title: "Top Faixa com Gráfico em Pixel Super Fácil e Rápido", videoId: "pZcukl0Z0cs" },
+      { id: "2.52", title: "Top Brasil em Crochê — Tutorial Fácil com Fio Conduzido", videoId: "OF8G4P7B07Y" },
     ],
   },
   {
@@ -121,6 +123,7 @@ export const MODULES: Module[] = [
     shortTitle: "Precificação",
     lessons: [
       { id: "4.1", title: "Como precificar seu crochê (super fácil pra iniciante)", videoId: "I7CJriiiA3o" },
+      { id: "4.2", title: "Como calcular o preço do meu crochê? Quanto cobrar pelas roupas da copa?", videoId: "ruN4SMpBihU" },
     ],
   },
   {
