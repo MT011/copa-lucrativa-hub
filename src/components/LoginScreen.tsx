@@ -53,7 +53,7 @@ const LoginScreen = ({ onLogin }: LoginScreenProps) => {
         <div className="text-center mb-8">
           <span className="text-5xl mb-4 block">🧶</span>
           <h1 className="font-display text-3xl md:text-4xl font-bold text-secondary mb-3">
-            Método Cropped Copa Lucrativa
+            Método Crochê Copa Lucrativa
           </h1>
           <p className="font-body text-primary-foreground/80 text-lg">
             Digite sua senha de acesso para entrar
@@ -65,38 +65,38 @@ const LoginScreen = ({ onLogin }: LoginScreenProps) => {
             <input
               type={showPassword ? "text" : "password"}
               value={password}
-              onChange={(e) => { setPassword(e.target.value); setError(""); }}
+              onChange={(e) => {setPassword(e.target.value);setError("");}}
               placeholder="Sua senha de acesso"
-              className="w-full px-5 py-4 rounded-lg bg-green-mid text-primary-foreground placeholder:text-primary-foreground/40 border-2 border-transparent focus:border-secondary focus:outline-none transition-colors text-lg font-body pr-12"
-            />
+              className="w-full px-5 py-4 rounded-lg bg-green-mid text-primary-foreground placeholder:text-primary-foreground/40 border-2 border-transparent focus:border-secondary focus:outline-none transition-colors text-lg font-body pr-12" />
+            
             <button
               type="button"
               onClick={() => setShowPassword(!showPassword)}
-              className="absolute right-4 top-1/2 -translate-y-1/2 text-primary-foreground/60 hover:text-secondary transition-colors"
-            >
+              className="absolute right-4 top-1/2 -translate-y-1/2 text-primary-foreground/60 hover:text-secondary transition-colors">
+              
               {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
             </button>
           </div>
 
-          {error && (
-            <p className="text-red-300 text-sm font-body bg-red-900/20 p-3 rounded-lg">
+          {error &&
+          <p className="text-red-300 text-sm font-body bg-red-900/20 p-3 rounded-lg">
               {error}
             </p>
-          )}
+          }
 
           <button
             type="submit"
             disabled={loading || !password.trim()}
-            className="w-full py-4 rounded-lg bg-secondary text-secondary-foreground font-body font-bold text-lg hover:brightness-110 transition-all disabled:opacity-50 flex items-center justify-center gap-2"
-          >
-            {loading ? (
-              <span className="animate-spin">⏳</span>
-            ) : (
-              <>
+            className="w-full py-4 rounded-lg bg-secondary text-secondary-foreground font-body font-bold text-lg hover:brightness-110 transition-all disabled:opacity-50 flex items-center justify-center gap-2">
+            
+            {loading ?
+            <span className="animate-spin">⏳</span> :
+
+            <>
                 ACESSAR MINHA ÁREA
                 <ArrowRight size={20} />
               </>
-            )}
+            }
           </button>
         </form>
 
@@ -104,8 +104,8 @@ const LoginScreen = ({ onLogin }: LoginScreenProps) => {
           Problemas para acessar? Entre em contato: suporte@copalucrativa.com
         </p>
       </div>
-    </div>
-  );
+    </div>);
+
 };
 
 export default LoginScreen;
