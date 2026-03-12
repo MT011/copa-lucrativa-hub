@@ -131,7 +131,7 @@ export const MODULES: Module[] = [
     slug: "planilha",
     icon: "🎁",
     title: "Bônus — Planilha de Precificação",
-    shortTitle: "Planilha",
+    shortTitle: "Planilha + Aula",
     lessons: [
       { id: "B.0", title: "Download da Planilha", videoId: "", isDownload: true },
       { id: "B.1", title: "Planilha de Precificação Grátis — Preço certo", videoId: "6jwkpdghwTY" },
