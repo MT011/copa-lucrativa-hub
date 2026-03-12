@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Eye, EyeOff, ArrowRight } from "lucide-react";
 import { PASSWORDS } from "@/data/modules";
+import loginHero from "@/assets/login-hero.png";
 
 interface LoginScreenProps {
   onLogin: (unlockedModules: string[]) => void;
