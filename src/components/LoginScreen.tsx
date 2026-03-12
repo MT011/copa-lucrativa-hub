@@ -101,11 +101,11 @@ const LoginScreen = ({ onLogin }: LoginScreenProps) => {
         </form>
 
         <p className="text-center text-primary-foreground/40 text-xs mt-8 font-body">
-          Problemas para acessar? Entre em contato: suporte@copalucrativa.com
+          Problemas para acessar? Entre em contato: metodocrochelucrativobr@gmail.com
+
         </p>
       </div>
     </div>);
-
 };
 
 export default LoginScreen;
