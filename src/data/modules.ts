@@ -48,7 +48,7 @@ export const MODULES: Module[] = [
     id: "copa",
     slug: "copa",
     icon: "🏆",
-    title: "Módulo 2 — Cropeds da Copa (+50 Aulas)",
+    title: "Módulo 2 — Aprenda Cada Peça (+50 Aulas)",
     shortTitle: "Coleção Copa Crochê",
     lessons: [
       { id: "2.1", title: "Cropped frente única Brasil (Canhoto)", videoId: "0Kt5seKElpM" },
