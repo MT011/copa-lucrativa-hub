@@ -31,7 +31,7 @@ export const MODULES: Module[] = [
     slug: "iniciante",
     icon: "📚",
     title: "Módulo 1 — Introdução ao Crochê",
-    shortTitle: "Introdução",
+    shortTitle: "Aprenda aqui",
     lessons: [
       { id: "1.1", title: "Aprenda crochê do zero em 5 passos", videoId: "ZQM1GS3uDz8" },
       { id: "1.2", title: "Kit básico para iniciantes", videoId: "lgAarivNLJU" },
@@ -49,7 +49,7 @@ export const MODULES: Module[] = [
     slug: "copa",
     icon: "🏆",
     title: "Módulo 2 — Cropeds da Copa (+50 Aulas)",
-    shortTitle: "Cropeds Copa",
+    shortTitle: "Coleção Copa Crochê",
     lessons: [
       { id: "2.1", title: "Cropped frente única Brasil (Canhoto)", videoId: "0Kt5seKElpM" },
       { id: "2.2", title: "Cropped de Crochê do Brasil 💚💛 | Copa 2026", videoId: "p3Vdv6UbUts" },
@@ -131,7 +131,7 @@ export const MODULES: Module[] = [
     slug: "planilha",
     icon: "🎁",
     title: "Bônus — Planilha de Precificação",
-    shortTitle: "Planilha",
+    shortTitle: "Planilha + Aula",
     lessons: [
       { id: "B.0", title: "Download da Planilha", videoId: "", isDownload: true },
       { id: "B.1", title: "Planilha de Precificação Grátis — Preço certo", videoId: "6jwkpdghwTY" },
@@ -142,7 +142,7 @@ export const MODULES: Module[] = [
     slug: "virais",
     icon: "🔥",
     title: "Módulo 5 — Peças Virais (+30 Aulas)",
-    shortTitle: "Peças Virais",
+    shortTitle: "Peças Virais Crochê ",
     lessons: [
       { id: "5.1", title: "Vestido de Crochê Esmeralda — Sandra Brum", videoId: "QZolpnZxUJw" },
       { id: "5.2", title: "Vestido de Crochê para o Réveillon — Sandra Brum", videoId: "GGt-IJyr-DE" },
