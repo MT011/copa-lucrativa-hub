@@ -34,6 +34,16 @@ const LoginScreen = ({ onLogin }: LoginScreenProps) => {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-primary p-4 relative overflow-hidden">
+      {/* Hero image with gradient fade */}
+      <div className="absolute inset-x-0 top-0 h-[60%] z-0">
+        <img
+          src={loginHero}
+          alt=""
+          className="w-full h-full object-cover object-top opacity-15"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/80 to-transparent" />
+      </div>
+
       {/* Decorative pattern */}
       <div className="absolute inset-0 opacity-5">
         <svg width="100%" height="100%">
