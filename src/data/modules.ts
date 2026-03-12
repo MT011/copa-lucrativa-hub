@@ -31,7 +31,7 @@ export const MODULES: Module[] = [
     slug: "iniciante",
     icon: "📚",
     title: "Módulo 1 — Introdução ao Crochê",
-    shortTitle: "Introdução",
+    shortTitle: "Aprenda aqui",
     lessons: [
       { id: "1.1", title: "Aprenda crochê do zero em 5 passos", videoId: "ZQM1GS3uDz8" },
       { id: "1.2", title: "Kit básico para iniciantes", videoId: "lgAarivNLJU" },
