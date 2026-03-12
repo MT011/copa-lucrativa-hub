@@ -49,7 +49,7 @@ export const MODULES: Module[] = [
     slug: "copa",
     icon: "🏆",
     title: "Módulo 2 — Cropeds da Copa (+50 Aulas)",
-    shortTitle: "Cropeds Copa",
+    shortTitle: "Coleção Copa Crochê",
     lessons: [
       { id: "2.1", title: "Cropped frente única Brasil (Canhoto)", videoId: "0Kt5seKElpM" },
       { id: "2.2", title: "Cropped de Crochê do Brasil 💚💛 | Copa 2026", videoId: "p3Vdv6UbUts" },
