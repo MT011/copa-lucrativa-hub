@@ -93,7 +93,7 @@ const LoginScreen = ({ onLogin }: LoginScreenProps) => {
             <span className="animate-spin">⏳</span> :
 
             <>
-                ACESSAR MINHA ÁREA
+                ACESSAR MINHAS AULAS
                 <ArrowRight size={20} />
               </>
             }
