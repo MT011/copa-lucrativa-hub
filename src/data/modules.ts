@@ -123,6 +123,7 @@ export const MODULES: Module[] = [
     shortTitle: "Precificação",
     lessons: [
       { id: "4.1", title: "Como precificar seu crochê (super fácil pra iniciante)", videoId: "I7CJriiiA3o" },
+      { id: "4.2", title: "Como calcular o preço do meu crochê? Quanto cobrar pelas roupas da copa?", videoId: "ruN4SMpBihU" },
     ],
   },
   {
