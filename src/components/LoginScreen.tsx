@@ -51,7 +51,7 @@ const LoginScreen = ({ onLogin }: LoginScreenProps) => {
 
       <div className="w-full max-w-md relative z-10 animate-fade-in">
         <div className="text-center mb-8">
-          <span className="text-5xl mb-4 block">🧶</span>
+          <span className="text-5xl mb-4 block animate-float">🧶</span>
           <h1 className="font-display text-3xl md:text-4xl font-bold text-secondary mb-3">
             Método Crochê Copa Lucrativa
           </h1>
