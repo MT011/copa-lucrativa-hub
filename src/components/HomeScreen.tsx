@@ -105,6 +105,16 @@ const HomeScreen = ({ unlockedModules, completedLessons, onNavigate }: HomeScree
                 <ChevronRight size={20} className="text-muted-foreground group-hover:text-accent transition-colors mt-1" />
               </div>
 
+              {MODULE_IMAGES[mod.id] && (
+                <div className="rounded-lg overflow-hidden mb-3">
+                  <img
+                    src={MODULE_IMAGES[mod.id]}
+                    alt={mod.shortTitle}
+                    className="w-full h-32 object-cover"
+                  />
+                </div>
+              )}
+
               <div className="mb-4">
                 <div className="flex justify-between text-xs font-body text-muted-foreground mb-1">
                   <span>{progress.done}/{progress.total}</span>
