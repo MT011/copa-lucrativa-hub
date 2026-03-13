@@ -39,7 +39,7 @@ const LoginScreen = ({ onLogin }: LoginScreenProps) => {
         <img
           src={loginHero}
           alt=""
-          className="w-full h-full object-cover object-top opacity-25"
+          className="w-full h-full object-cover object-[center_30%] opacity-25"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/80 to-transparent" />
       </div>
