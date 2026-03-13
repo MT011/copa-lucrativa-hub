@@ -1,6 +1,22 @@
 import { MODULES, type Module } from "@/data/modules";
 import { Lock, Play, ChevronRight } from "lucide-react";
 
+import modulo1Img from "@/assets/modulo-1.png";
+import modulo2Img from "@/assets/modulo-2.png";
+import modulo3Img from "@/assets/modulo-3.png";
+import modulo4Img from "@/assets/modulo-4.png";
+import modulo5Img from "@/assets/modulo-5.png";
+import modulo6Img from "@/assets/modulo-6.png";
+
+const MODULE_IMAGES: Record<string, string> = {
+  iniciante: modulo1Img,
+  copa: modulo2Img,
+  whatsapp: modulo3Img,
+  precificacao: modulo4Img,
+  planilha: modulo5Img,
+  virais: modulo6Img,
+};
+
 interface HomeScreenProps {
   unlockedModules: string[];
   completedLessons: string[];
