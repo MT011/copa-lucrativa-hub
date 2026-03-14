@@ -39,8 +39,8 @@ const LoginScreen = ({ onLogin }: LoginScreenProps) => {
         <img
           src={loginHero}
           alt=""
-          className="w-full h-full object-cover object-[center_30%] opacity-40"
-        />
+          className="w-full h-full object-cover object-[center_30%] opacity-40" />
+        
         <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/80 to-transparent" />
       </div>
 
@@ -112,7 +112,7 @@ const LoginScreen = ({ onLogin }: LoginScreenProps) => {
         </form>
 
         <p className="text-center text-primary-foreground/40 text-xs mt-8 font-body">
-          Problemas para acessar? Entre em contato: metodocrochelucrativobr@gmail.com
+          Problemas para acessar? Entre em contato: crochelucrativocopa@gmail.com
 
         </p>
       </div>
