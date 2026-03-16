@@ -93,6 +93,7 @@ const Index = () => {
               moduleId={currentScreen}
               completedLessons={completedLessons}
               onSelectLesson={handleSelectLesson}
+              onNavigate={handleNavigate}
             />
           )}
         </div>
