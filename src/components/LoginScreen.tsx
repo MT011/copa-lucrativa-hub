@@ -112,8 +112,13 @@ const LoginScreen = ({ onLogin }: LoginScreenProps) => {
         </form>
 
         <p className="text-center text-primary-foreground/40 text-xs mt-8 font-body">
-          Problemas para acessar? Entre em contato: crochelucrativocopa@gmail.com
-
+          Problemas para acessar? Entre em contato:{" "}
+          <a 
+            href="mailto:crochelucrativocopa@gmail.com" 
+            className="text-secondary hover:underline"
+          >
+            crochelucrativocopa@gmail.com
+          </a>
         </p>
       </div>
     </div>);
