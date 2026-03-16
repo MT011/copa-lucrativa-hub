@@ -1,13 +1,14 @@
 import { MODULES, type Module, type Lesson } from "@/data/modules";
-import { CheckCircle2, Circle, Clock, Download } from "lucide-react";
+import { CheckCircle2, Circle, Clock, Download, Home } from "lucide-react";
 
 interface ModuleScreenProps {
   moduleId: string;
   completedLessons: string[];
   onSelectLesson: (moduleId: string, lessonId: string) => void;
+  onNavigate?: (screen: string) => void;
 }
 
-const ModuleScreen = ({ moduleId, completedLessons, onSelectLesson }: ModuleScreenProps) => {
+const ModuleScreen = ({ moduleId, completedLessons, onSelectLesson, onNavigate }: ModuleScreenProps) => {
   const mod = MODULES.find((m) => m.id === moduleId);
   if (!mod) return null;
 
@@ -16,7 +17,7 @@ const ModuleScreen = ({ moduleId, completedLessons, onSelectLesson }: ModuleScre
   const completedCount = availableLessons.filter((l) => !l.isDownload && completedLessons.includes(l.id)).length;
 
   return (
-    <div className="animate-fade-in">
+    <div className="animate-fade-in relative pb-20">
       <div className="mb-8">
         <div className="flex items-center gap-3 mb-2">
           <span className="text-3xl">{mod.icon}</span>
@@ -81,6 +82,16 @@ const ModuleScreen = ({ moduleId, completedLessons, onSelectLesson }: ModuleScre
           );
         })}
       </div>
+
+      {/* Botão voltar ao início - visível no mobile, discreto no desktop */}
+      <button
+        onClick={() => onNavigate?.("home")}
+        className="fixed bottom-4 left-4 z-40 flex items-center gap-2 px-4 py-3 bg-primary text-primary-foreground rounded-full shadow-lg hover:bg-primary/90 transition-all lg:hidden"
+        aria-label="Voltar ao início"
+      >
+        <Home size={20} />
+        <span className="font-body text-sm font-medium">Início</span>
+      </button>
     </div>
   );
 };
